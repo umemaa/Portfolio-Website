@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 25px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    color: purple;
+    font-size: 1.03rem;
+  }
+
+  .left {
+    font-size: 1.5rem;
+  }
+
+  .FirstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+  }
+
+  .FirstSection > div {
+    width: 40%;
+  }
+  .FirstSection hr {
+    border: 0;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+
+  .leftSection {
+    font-size: 2.5rem;
+  }
+
+  .rightSection img {
+    width: 80%;
+    height: 80%;
+    margin: 50px 0;
+  }
+
+  .Umema {
+    color: purple;
+  }
+
+  .umema {
+    color: purple;
+  }
+  .SecondSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+  }
+
+  .SecondSection > div {
+    width: 30%;
+  }
+  .LeftSection {
+    font-size: 1.099rem;
+    margin: 30px 0;
+  }
+  .RightSection img {
+    width: 100%;
+    margin: 50px 0;
+    text-align: right;
+    height: 400px;
+  }
+  .SecondSection h1 {
+    font-size: 2.1rem;
+    margin: 10px 0;
+  }
+  .about {
+    color: purple;
+  }
+  .ThirdSection {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .card {
+    height: 400px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+  }
+  .ThirdSection img {
+    height: 250px;
+    width: 300px;
+    border-radius: 3px;
+  }
+  .intro {
+    height: 200px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: content-box;
+    position: absolute;
+
+    background: black;
+    color: white;
+    
+  }
+  .ThirdSection h2 {
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .ThirdSection p {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ThirdSection span {
+    font-weight: bold;
+    color: purple;
+  }
+  .card:hover {
+    cursor: pointer;
+  }
+  .FourthSection {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .FourthSection h1 {
+    text-align: center;
+    color: white;
+    margin: 50px;
+  }
+  .border {
+    width: 100px;
+    height: 10px;
+    background: purple;
+    margin: 40px auto;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.7s ease-in-out;
+  }
+  .contact-form-text:focus {
+    box-shadow: 0 0 10px 4px purple;
+  }
+  textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn {
+    float: right;
+    border: 0;
+    background: purple;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin: 10px;
+  }
+  .contact-form-btn:hover {
+    background: blueviolet;
+  }
+
+  #about-me{
+    padding-top: 70px;
+    margin-left: 500px;
+  }
+
+  #service{
+    padding-top: 70px;
+    margin-left: 500px;
+
+  }
